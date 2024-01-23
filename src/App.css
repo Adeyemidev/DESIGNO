@@ -1,0 +1,252 @@
+.App{font-family: 'Jost',sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#first-section, .company {background-position: 29.5rem -0.1rem;
+background-repeat: no-repeat;
+background-image: url(./assets/bg-pattern-hero-home-background.svg);}
+
+
+.company{background-position: 1rem -10rem;
+background-image: url(./assets/bg-pattern-hero-about-desktop..svg);}
+
+h1{line-height: 3rem;
+max-width: 37rem;
+color: hsl(0,0%,100%);}
+/* Sub-Footer */
+
+.GetIntouch{background-color: hsl(11,73%,66%);;
+background-image: url(./assets/background-Image.svg);
+max-width:69.4375rem;
+border-radius: 8px;
+transform: translateY(6rem);
+background-position: 15rem 10rem}
+
+/* /////////////////////////////////////////// */
+.company{background-color:  hsl(11,73%,66%);
+}
+
+p{color: hsl(0,0%,100%); 
+max-width: 25rem;
+line-height: 1.625rem;
+font-size: 0.9rem;
+letter-spacing: 0.1rem;
+font-weight: 400;}
+
+#Props p, .company p{max-width:  31rem;;}
+
+ div button{background-color:hsl(0,0%,100%);
+    letter-spacing: 0.1rem}
+button:hover{background:hsl(11,100%,80%);
+    color:hsl(0,0%,100%);
+    transition: 0.5s;
+;}
+
+/* Nav */
+.hanburger {display: none;}
+header li{color:hsl(270,3%,11%);
+    font-size: 0.9rem;
+}
+
+header ul li::after{
+    content: '';
+    width: 0%;
+    background-color: hsl(270,3%,11%);
+    display: block;
+    height:1px;
+}
+ul li:hover::after{
+width: 100%;
+transition: 0.5s;
+margin: auto;}
+
+li{color:hsl(0,0%,100%);
+    font-size: 0.9rem;
+}
+
+ul li::after{
+    content: '';
+    width: 0%;
+    background-color: hsl(0,0%,100%);;
+    display: block;
+    height:1px;
+}
+
+/* Stops here */
+/*......................... Projects.........................*/
+
+.web{background-image: url(./assets/image-web-design-large..jpg);
+height: 100dvh;background-repeat: no-repeat;
+background-size: cover;}
+
+.app{background-image: url(./assets/image-app-design..jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 48.7dvh;
+
+}
+
+.graphics{background-image: url(./assets/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+    #Sub_Link .app{
+        width: 6dvw;
+        height: 100%vh;
+
+    }
+    
+   #Sub_Link .graphics{
+    width: 0dvw;
+    height: 100vh;
+    }
+
+#Projects div{
+    background-color: rgba(0, 0, 0, 0.667);
+    border-radius: 16px;
+    height: 100%;
+    margin: auto;
+
+}
+#Projects div:hover{
+background-color: hsl(11,73%,66%);
+transition: 0.9s;
+opacity: 0.7;
+}
+
+#Projects div p{
+    margin: auto;
+
+}
+
+
+#Design_Component div{background-color:hsl(210,17%,95%);
+}
+#Design_Component div:hover{background-color: hsl(11,73%,66%);
+color:hsl(0,0%,100%) ;
+}
+
+#Design_Component p{color:hsl(270,3%,11%) ;}
+
+ /*......................... STOP.........................*/
+   
+
+   #Props p, #Services p{color: hsl(270,3%,11%);
+        font-size: 0.9rem;}
+        #Design_Component div h2{color:hsl(11,73%,66%);}
+
+    #Services h2,img{margin: auto;}
+    #Design_Component h2, #Countries h2, #Services h2{padding: 15px 0px;
+    color: hsl(270,3%,11%);
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+font-weight: 400;}
+
+
+    div h2{color:hsl(0,0%,100%);
+        letter-spacing: 0.1rem;
+        max-width: 26.75rem;
+        font-size: 2.5rem;
+    line-height: 2.5rem;
+    }
+    
+    #Props .background-img{background-image: url(./assets/bg-worldClass.svg);
+        background-position: 15rem 4rem;}
+
+    .logos img{height: 30px;
+    width: 30px;}
+
+/* Contact Pages */
+input, textarea{outline: none;
+border-bottom: 1px solid white;
+color: #fff;
+background-color: transparent;
+}
+
+#contactLayout span{color:brown  ;}
+/*  Stops here */
+
+
+#Countries button{background-color:  hsl(11,73%,66%);
+}
+
+#Countries button:hover{background: hsl(11,100%,80%);}
+
+#Countries img{background-color: rgb(253, 243, 240);
+margin: auto;
+border-radius: 100%;}
+footer p{color: rgb(150, 150, 150);}
+
+footer p:nth-child(2):hover{color: hsl(11,100%,80%);}
+#DisplayLocation h4{color: hsl(270,3%,11%);
+    font-weight: 500;}
+
+    #DisplayLocation h1{font-size: 2rem;
+        line-height: 2.25rem;
+    color:hsl(11,73%,66%) ;}
+
+#DisplayLocation p{color: hsl(264,5%,20%);
+font-size: 0.9rem;
+line-height:1.625rem;
+font-weight: 400;
+}
+
+@media (max-width: 800px) {
+
+div h2{font-size: 2rem;}
+/* Nav */
+#header ul{display: none} 
+.hanburger {display: block;}
+.hanburger div{height: 3px;
+    width: 22px;
+margin-top: 3px;
+ background: black;}
+/*    */
+#Props p, #Services p{margin: auto;}
+
+/* Footer */
+
+ul li::after{
+    content: '';
+    width: 0%;
+ } li:hover::after{
+        width: 100%;
+        transition: 0.5s;
+        margin: auto;}
+ul li:hover::after{
+    width: 20%;
+    transition: 0.5s;
+    margin: auto;}
+.logos img{height: 25px;
+    width: 25px;
+margin: auto;}
+/*  */
+
+/* HandburgerNav */
+#handburgerNav ul li:hover::after{
+        width: 100%;
+        transition: 0.5s;}
+
+/*  */
+
+ .web{ 
+   height: 40dvh;
+   font-size: 1.75rem
+;}
+    
+    .app{
+    height: 40dvh;
+
+    }
+    
+     .graphics{
+    height: 40dvh;
+    }
+    
+} 
+ 
