@@ -9,7 +9,17 @@ import Home from './Pages/Home'
 import { WEB_DESIGN } from './Pages/Web-Design' 
 import { APP_DESIGN } from './Pages/App-Design'
 import { GRAPHICS_DESIGN } from './Pages/Graphic-Design'
+import { useState, useEffect } from 'react'
+import { MoonLoader } from 'react-spinners'
 function App() {
+  const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(()=>{
+setIsLoading(true)
+setTimeout(()=>{
+  setIsLoading(false)
+}, 5000)
+  },[])
 
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -29,9 +39,14 @@ function App() {
   
   return (
   <div className='App'>
+{isLoading? <div className='grid place-items-center h-screen'><MoonLoader
+  color="hsl(11,73%,66%)"
+  size={30}
+/></div>:
+
       <RouterProvider router={router}>
       
-      </RouterProvider>
+      </RouterProvider>}
   </div>
   
     );

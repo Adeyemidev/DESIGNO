@@ -56,23 +56,16 @@ header ul li::after{
     background-color: hsl(270,3%,11%);
     display: block;
     height:1px;
+
 }
-ul li:hover::after{
+header ul li:hover::after{
 width: 100%;
-transition: 0.5s;
-margin: auto;}
+transition: 0.5s;}
 
 li{color:hsl(0,0%,100%);
     font-size: 0.9rem;
 }
 
-ul li::after{
-    content: '';
-    width: 0%;
-    background-color: hsl(0,0%,100%);;
-    display: block;
-    height:1px;
-}
 
 /* Stops here */
 /*......................... Projects.........................*/
@@ -124,7 +117,9 @@ opacity: 0.7;
 
 }
 
+#handburgerNav { display: none;}
 
+ 
 #Design_Component div{background-color:hsl(210,17%,95%);
 }
 #Design_Component div:hover{background-color: hsl(11,73%,66%);
@@ -177,7 +172,8 @@ background-color: transparent;
 
 #Countries button:hover{background: hsl(11,100%,80%);}
 
-#Countries img{background-color: rgb(253, 243, 240);
+#Countries img{
+    background-color: rgb(253, 243, 240);
 margin: auto;
 border-radius: 100%;}
 footer p{color: rgb(150, 150, 150);}
@@ -210,11 +206,9 @@ margin-top: 3px;
 #Props p, #Services p{margin: auto;}
 
 /* Footer */
+#handburgerNav { display: block;}
 
-ul li::after{
-    content: '';
-    width: 0%;
- } li:hover::after{
+ li:hover::after{
         width: 100%;
         transition: 0.5s;
         margin: auto;}
@@ -228,6 +222,15 @@ margin: auto;}
 /*  */
 
 /* HandburgerNav */
+
+#handburgerNav ul li::after{
+    content: '';
+    width: 0%;
+    background-color: rgb(253, 243, 240);
+    display: block;
+    height:1px;
+    margin: left;
+ }
 #handburgerNav ul li:hover::after{
         width: 100%;
         transition: 0.5s;}

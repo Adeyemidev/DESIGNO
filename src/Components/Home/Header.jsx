@@ -4,7 +4,7 @@ import Hero from '../../assets/desktop-hero-image.png'
 export function Header() {
   return(
 
-<section id='first-section' className='text-center lg:text-left md:mx-10 lg:mx-28 lg:flex justify-center md:justify-between md:px-10 lg:px-20 pt-10 md:pt-32 sm:rounded-2xl' style={{backgroundColor:'hsl(11,73%,66%)'}}>
+<section id='first-section' className='text-center  lg:text-left md:mx-10 lg:mx-28 lg:flex justify-center lg:justify-between md:px-10 lg:px-20 pt-10 md:pt-32 sm:rounded-2xl' style={{backgroundColor:'hsl(11,73%,66%)'}}>
         <div>
         <h1 className=' text-3xl px-6 md:px-0
         md:text-4xl lg:text-5xl font-bold mt-8 text-center lg:text-left'>Award-winning custom designs and digital branding solutions</h1>
