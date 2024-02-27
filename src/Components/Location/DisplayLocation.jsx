@@ -12,9 +12,12 @@ export const DisplayLocation = ()=>{
 
 <Location_Reverse/>
 
-<Location_Props country={'United Kingdom'} map={Map3} office={"Designo UK Office"}  street={'13 Colorada Way'} city={'Rhyd-y-fro SA8 9GA'}
- number={'+44 078 3115 1400'} email={'contact@designo.uk'}/>
+    
+<Location_Props country={'United Kingdom'} map={Map3} street={'13 Colorada Way'} city={'Toronto, Ontario M9C 3J5'}
+ office={"Designo UK Office"} number={'+44 078 3115 1400'} email={'contact@designo.uk'}/>
 
  </div>
  <GetIntouch/></>)
  }
+
+

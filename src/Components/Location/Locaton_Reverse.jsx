@@ -11,7 +11,8 @@ import { Map2} from "../Maps/MapLocation"
  <div className="rounded-2xl py-20 text-center md:text-left  sm:pl-28 lg:pl-16 lg:pr-44 items-center  " 
     style={{backgroundColor:'rgb(253, 243, 240)'}} >
         <h1 className='text-3xl mb-6 font-bold'>Australia</h1> 
- <div className='flex flex-wrap md:flex-no-wrap gap-28' >
+
+<div className="grid grid-flow-row md:grid-flow-col place-items-center md:place-items-start gap-4 md:gap-28 ">
    
 <span>
    <h4>Designo AU Office</h4>

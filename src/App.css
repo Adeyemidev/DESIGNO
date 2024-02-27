@@ -183,7 +183,7 @@ border-radius: 100%;}
 footer p{color: rgb(150, 150, 150);}
 
 footer p:nth-child(2):hover{color: hsl(11,100%,80%);}
-#DisplayLocation h4{color: hsl(270,3%,11%);
+#Display h4{color: hsl(270,3%,11%);
     font-weight: 500;}
 
     #DisplayLocation h1{font-size: 2rem;
